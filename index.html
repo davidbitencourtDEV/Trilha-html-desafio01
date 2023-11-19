@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de HTML 01</title>
+</head>
+<body>
+    <h1 id="inicio">Módulo 01 - Primeiros Passos com HTML</h1>
+    <hr/>
+
+    <h2>Indice</h2>
+    <ul>
+        <li><a href="#aula1">A historia do computador</a></li>
+        <li><a href="#aula2">Oque são client x server</a></li>
+        <li><a href="#aula3">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#aula4">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#5">Referências</a></li>
+    </ul>
+
+    <h2 id="aula1">História dos computadores</h2>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <p>A palavra “computador” vem do verbo “computar” que, por sua vez, significa “calcular”. Sendo assim, podemos pensar que a criação de computadores começa na idade antiga, já que a relação de contar já intrigava os homens.</p>
+    <p><mark>Dessa forma, uma das primeiras máquinas de computar foi o “ábaco”, instrumento mecânico de origem chinesa criado no século V a.C. Assim, ele é considerado o “primeiro computador”, uma espécie de calculadora que realizava operações algébricas.</mark></p>
+    <p>Depois do ábaco foram criados outros aparelhos, também analógicos, capazes de realizar contagens, como os ossos de napier, a pascalina (primeira calculadora mecânica do mundo), a máquina de Leibniz, o tear automático, a máquina de diferenças, a máquina analítica de Babbage, o tabulador automático, entre outros. </p>
+    <p>Todos esses dispositivos são resultado de melhorias. Em outras palavras, se um dispositivo falhou em realizar uma determinada tarefa, outro dispositivo foi criado para atender às suas necessidades. Este desenvolvimento não foi um processo tão rápido como é hoje, pois os recursos eram mais limitados na época.</p>
+    <p><strong>Alan Turing, o renomado matemático e pioneiro da ciência da computação</strong></p>
+    <p><i>"Às vezes, é a pessoa que ninguém imagina nada além de coisas comuns que faz algo extraordinário."</i></p>
+
+    <h2 id="aula2">O que são <i>Clients x Server</i>?</h2>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <h3>Clients</h3>
+
+    <p>Um cliente é um dispositivo ou programa que solicita serviços ou recursos de um servidor. Em um contexto de rede, o cliente é a parte que inicia a comunicação. 
+        Pode ser um computador, smartphone, tablet ou qualquer outro dispositivo capaz de se conectar a um servidor.</p>
+    <p>
+        Exemplo: Quando você usa um navegador da web (cliente) para acessar uma página da web, o navegador faz uma solicitação ao servidor para obter os recursos da página.
+    </p>   
+    
+    <h3>Server</h3>
+
+    <p>Um servidor é um dispositivo ou programa que fornece serviços, recursos ou dados para outros dispositivos chamados clientes. Em uma arquitetura cliente-servidor, o servidor é responsável por processar as solicitações dos clientes e enviar as respostas apropriadas</p>
+    <p>Exemplo: Um servidor web armazena e fornece páginas da web para os clientes que fazem solicitações. Quando você acessa um site, seu navegador (cliente) envia uma solicitação ao servidor, que então envia os recursos necessários de volta para o navegador exibir.
+    </p>
+    <h2 id="aula3">Como é uma estrutura básica de um HTML?</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    
+    <p>O código HTML organiza o conteúdo de uma página web de maneira estruturada.
+        Ele utiliza elementos como <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>, <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, 
+        <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code> para criar uma estrutura semântica.
+    </p>
+    <ul>
+        <li><strong>&lt;meta charset="UTF-8"&gt;:</strong> Define a codificação de caracteres para UTF-8, permitindo a exibição adequada de caracteres especiais.</li>
+        <li><strong>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;:</strong> Configura a visualização responsiva em dispositivos móveis, ajustando automaticamente a largura para o tamanho da tela do dispositivo.</li>
+        <li><strong>&lt;header&gt;:</strong> Geralmente contém elementos de cabeçalho, como &lt;h1&gt; para o título principal do site.</li>
+        <li><strong>&lt;nav&gt;:</strong> Usado para agrupar links de navegação, como menus.</li>
+        <li><strong>&lt;section&gt;:</strong> Divide a página em seções lógicas e pode conter vários elementos, como &lt;article&gt; (para conteúdo autônomo) e &lt;aside&gt; (para conteúdo relacionado).</li>
+        <li><strong>&lt;footer&gt;:</strong> Inclui informações de rodapé, como direitos autorais ou links para redes sociais.</li>
+        <li><strong>&lt;article&gt;:</strong> Um elemento usado para conteúdo independente e autossuficiente que pode ser distribuído e reutilizado separadamente.</li>
+        <li><strong>&lt;aside&gt;:</strong> Usado para conteúdo relacionado ao conteúdo circundante, como barras laterais ou notas explicativas.</li>
+        <li><strong>Comentários HTML:</strong> Você também pode adicionar comentários ao código HTML usando &lt;!-- comentário aqui --&gt;. Comentários não são exibidos na página, mas são úteis para documentação.</li>
+        <li><strong>Atributos e Valores:</strong> Atributos fornecem informações adicionais sobre os elementos e são definidos dentro das tags. Exemplo: &lt;tag atributo="valor"&gt;.</li>
+        <li><strong>Links e Navegação:</strong> Os links são criados usando a tag &lt;a&gt; e geralmente têm o atributo href que aponta para o destino do link.</li>
+        <li><strong>Listas:</strong> As listas ordenadas (&lt;ol&gt;) e não ordenadas (&lt;ul&gt;) podem ser usadas para criar listas numeradas ou com marcadores, respectivamente. Os itens de lista são representados por &lt;li&gt;.</li>
+    </ul>
+    <h2 id="aula4">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <h3>Lista Ordenada</h3>
+    <p><strong>A lista ordenada </strong> é usada para criar uma lista na qual cada item é numerado ou marcado com um símbolo específico <code>&lt;li&gt;</code>. Os elementos da lista ordenada são definidos pela tag (item de lista). Os números ou marcadores são automaticamente gerados pelo navegador.</p>
+    <h3>Lista Não Ordenada</h3>
+    <p><strong>A lista não ordenada </strong> é usada para criar uma lista na qual cada item é precedido por um marcador, como um ponto ou um círculo. Assim como nas listas ordenadas, os elementos da lista não ordenada são definidos pela tag <code>&lt;li&gt;</code>.</p>
+    
+    <h2 id="5">Referências</h2>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <ul>
+        <li><a href="#">http://dio.me</a></li>
+        <li><a href="#">http://w3c.org</a></li>
+    </ul>
+</body>
+</html>
